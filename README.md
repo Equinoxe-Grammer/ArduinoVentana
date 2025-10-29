@@ -19,7 +19,7 @@ Los sensores de vibración pueden no dispararse si abren sin golpear y provocar 
 ### Arquitectura general (Mermaid)
 ```mermaid
 flowchart LR
-  IR[Sensor IR (KY-033)] -- OUT (D3) --> MCU[Arduino Nano]
+  IR[Sensor IR (KY-033)] -- "OUT (D3)" --> MCU[Arduino Nano]
   MCU -- D2 --> BZ[Buzzer (alarma)]
 ```
 
